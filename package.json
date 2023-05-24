@@ -1,0 +1,24 @@
+{
+  "name": "eindwerk_html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "preview": "vite preview --open --host",
+    "predeploy": "npm run build",
+    "deploy": "surge ./dist Houtmeyers.jonathan-taakHTMLCSS.surge.sh",
+    "css": "sass ./css/style.scss ./css/style.css --style=compressed --watch",
+    "svg install": "npm i -g stack-svg",
+    "svg": "stack-svg ./icons/symbol-defs.svg ./icons/icons.svg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5",
+    "vite": "^4.3.5"
+  }
+}
