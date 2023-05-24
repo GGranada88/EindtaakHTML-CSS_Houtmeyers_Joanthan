@@ -632,7 +632,7 @@ body {
     background-position: top center;
   
     .container {
-      max-width: 80%;
+      max-width: 1440px;
       margin: 0 auto;
       padding-top: 17rem;
       padding-bottom: 17rem;
@@ -787,7 +787,7 @@ body {
       padding-top: 17rem;
       padding-bottom: 17rem;
       transition: all .3s;
-      max-width: 80%;
+      max-width: 1440px;
       margin: 0 auto;
   
       h3 {
@@ -1056,9 +1056,7 @@ body {
 
   
   @media screen and (max-width: 625px) {
-    html, body {
-        overflow-x: hidden;
-      }
+    
 
         
     :root {
@@ -1204,6 +1202,7 @@ body {
     footer .container {
       flex-direction: column;
       padding-top: 10px;
+      
   
       .first, .second {
         margin-right: 0;
