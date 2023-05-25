@@ -1057,6 +1057,10 @@ body {
 
   
   @media screen and (max-width: 625px) {
+
+    .container_topnav {
+    overflow: hidden;
+    }
     
 
         
@@ -1158,8 +1162,7 @@ body {
               margin-right: 2rem;
              
             li{
-             :nth-child(1) {
-          margin-left: 0rem;
+     
         }
             }  
             }
@@ -1233,4 +1236,4 @@ body {
     .firstpage_content{
         margin-left: 5rem;
     }
-  }
+  
