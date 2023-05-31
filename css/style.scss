@@ -706,6 +706,7 @@ body {
         display: flex;
         
         
+        
   
         .eightpage_content {
           flex-direction: column;
@@ -714,9 +715,8 @@ body {
           width: 80%;
           margin: 0 auto;
           margin-bottom: 5rem;
+          box-shadow:  0 3px 20px rgb(0 0 0 / 0.0);       
          
-          
-          
   
           img {
             width: 100%;
@@ -1214,6 +1214,7 @@ body {
     .sixtpage .container {
       .cards {
         flex-direction: column;
+        
       }
   
       .card {
@@ -1239,6 +1240,7 @@ body {
   }
     .eightpage .eightpage_contents {
       flex-direction: column;
+      
   
       .text {
         margin: 0 auto;
