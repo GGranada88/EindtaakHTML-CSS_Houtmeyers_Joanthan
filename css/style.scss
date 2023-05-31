@@ -9,6 +9,9 @@ body {
     font-size: 2.5rem;
     color: #fff;
   }
+  .hamburger{
+    visibility: hidden;
+  }
   
   .btn {
     text-decoration: none;
@@ -180,13 +183,13 @@ body {
   .firstpage_content {
 
     display: flex;
-    margin: 0 auto;
     background-color: $white;
     color: $black;
     height: 80vh;
+     max-width: 1440px;
      justify-content: center;
      align-items: center;
-     max-width: 1440px;
+     
   
     .firstpage_col_1 {
       max-width: 560px;
@@ -1058,6 +1061,23 @@ body {
   
   @media screen and (max-width: 625px) {
 
+    .topnav{
+      visibility: hidden;
+      position: fixed;
+    }
+    .topnav_bgc{
+      position: fixed;
+    }
+
+    .hamburger{
+      visibility: visible;
+      font-size: 10rem;
+      margin-left: 5rem;
+      color:$lightblue;
+      
+      
+    }
+
     .container_topnav {
     overflow: hidden;
     }
@@ -1169,10 +1189,8 @@ body {
             }
             
             
-        }  
-      
-    
-    }
+        } 
+        
   
     .footer .container {
       max-width: 100%;
@@ -1237,4 +1255,9 @@ body {
     .firstpage_content{
         margin-left: 5rem;
     }
+   
+      
+    
+    }
   
+   
