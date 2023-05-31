@@ -1100,7 +1100,7 @@ body {
 
         
     :root {
-      font-size: 30%;
+      font-size: 50%;
     }
   
     .topnav .logo img {
@@ -1192,14 +1192,16 @@ body {
             align-items: center;
             box-sizing: border-box; 
             margin-top: 5rem;
-
+          li:first-of-type{
+            margin-right: auto;
+            margin-left: auto;
+          }
             ul{
               margin-right: 2rem;
              
             li{
-              margin-bottom: 5rem;
-     
-        }
+              margin-bottom: 5rem;           
+            }
             }  
             }
             
@@ -1229,12 +1231,18 @@ body {
   
       ul {
         flex-direction: column;
+        margin-bottom: 10rem;
+      
     
       }
     }
   .eightpage{
     .container{
         margin-top: 5rem;
+        h2{
+          width: 100%;
+        text-align: center;
+        }
     }
    
   }
