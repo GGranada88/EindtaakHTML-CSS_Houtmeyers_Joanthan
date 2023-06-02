@@ -6,7 +6,7 @@
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #548aa0 #ffffff;
+    scrollbar-color: $lightblue #ffffff;
   }
 
   /* Chrome, Edge, and Safari */
@@ -19,7 +19,7 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #548aa0;
+    background-color: $lightblue;
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
@@ -186,6 +186,7 @@ body {
         padding-right: 10px;
         caret-color: #00bec9;
       }
+      
   
       .search {
         align-items: center;
@@ -193,6 +194,7 @@ body {
         background-color: #00bec9;
         padding: 5px 35.5px;
         position: relative;
+        
   
         svg {
           position: absolute;
@@ -200,8 +202,9 @@ body {
           right: 20px;
           font-size: 3rem;
         }
-      }
+      } 
     }
+    
   }
  
   .firstpage_content {
@@ -1110,7 +1113,7 @@ body {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #548aa0 #ffffff;
+    scrollbar-color: $lightblue #ffffff;
   }
 
   /* Chrome, Edge, and Safari */
@@ -1123,7 +1126,7 @@ body {
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #548aa0;
+    background-color: $lightblue;
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
@@ -1237,10 +1240,8 @@ body {
   
     .fourthpage {
        
-        height: fit-content;
-      
-        margin-bottom:14rem;
-        
+        height: fit-content;      
+        margin-bottom:14rem;        
         width: 100%;     
         
       
